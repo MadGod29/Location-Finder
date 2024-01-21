@@ -4,7 +4,7 @@ import './sidebar.css';
 export default function Sidebar() {
   return (
   <>
-    <div className="mainsidebar" style={{width: '420px', height: '70%', background: 'white', borderRadius: 30,textAlign:'center'}} >
+    <div className="mainsidebar" style={{width: '420px', height: '100vh', background: 'white',borderTopRightRadius:'30px',borderBottomRightRadius:'30px',textAlign:'center'}} >
         <div style={{color: 'black', fontSize: 24, fontFamily: 'Inter', fontWeight: '300', wordWrap: 'break-word',padding:'20px'}}>FIND ACCORDING TO </div>
         
         <div style={{display: 'flex', alignItems: 'center'}}>
@@ -14,7 +14,7 @@ export default function Sidebar() {
                 </div>
             </button>
 
-            <div style={{width: '2px', height: '40px', background: 'black'}}></div>
+            <div style={{width: '2px', height: '45px', background: 'black'}}></div>
 
             <button style={{flex: 1, display: 'flex', justifyContent: 'center'}}>
                 <div className="option location" style={{width: '100%', height: '100%', textAlign: 'center', color: 'black', fontSize: 20, fontFamily: 'Inter', fontWeight: '290', wordWrap: 'auto'}}>
@@ -36,6 +36,8 @@ export default function Sidebar() {
             </button>
         </div>
         <div style={{width: '100%', height: '0%', border: '1px black solid'}}></div>
+
+        {/* iterate the pperson component as addperson button is pressed*/}
     </div>
   </>
   )
