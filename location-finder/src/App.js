@@ -2,7 +2,7 @@ import Sidebar from './Components/Sidebar/sidebar';
 import './App.css';
 
 function App() {
-  return (<div className='app' style={{display:'flex',backgroundImage:'url(https://miro.medium.com/v2/resize:fit:1230/format:webp/1*49bmkdaUj5pWVn59_lKSUQ.png)',height:'100vh',width:'auto',paddingTop:'20px',paddingLeft:'80px',backgroundPosition:'center'}}>
+  return (<div className='app' style={{display:'flex',backgroundImage:'url(https://miro.medium.com/v2/resize:fit:1230/format:webp/1*49bmkdaUj5pWVn59_lKSUQ.png)',height:'100vh',width:'auto',paddingTop:'10px',paddingLeft:'100px',backgroundPosition:'center'}}>
   <Sidebar></Sidebar>
   </div>
   );
