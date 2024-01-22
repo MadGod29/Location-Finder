@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Person from '../Person/person';
 import './sidebar.css';
 
 export default function Sidebar() {
@@ -20,7 +21,7 @@ export default function Sidebar() {
         increasePCount(peopleCount+1)
         alert(peopleCount)
     }
-    
+
     const [locationCount,increaseLCount]=useState(0)
     const addLocation=()=>{
         increaseLCount(locationCount+1)
@@ -71,7 +72,7 @@ export default function Sidebar() {
         {/*DIVIDER*/}
 
         <div>
-
+            <Person></Person>
         </div>
         {/* iterate the pperson component as addperson button is pressed*/}
     
